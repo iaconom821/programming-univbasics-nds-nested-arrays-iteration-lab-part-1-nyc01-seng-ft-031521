@@ -9,8 +9,8 @@ def find_even_values(src)
       if src[in1][in2] % 2 == 0 
         puts(src[in1][in2])
       end 
-    in2 += 1
+      in2 += 1
     end
-  in1 += 1
+    in1 += 1
   end
 end
